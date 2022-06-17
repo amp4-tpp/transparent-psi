@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "supertest": "^3.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  },
+  "dependencies": {
+    "alea": "0.0.9",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "csv-writer": "^1.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "js-sha256": "^0.9.0",
+    "lowdb": "^1.0.0",
+    "python-shell": "^0.5.0",
+    "simple-git": "^1.92.0",
+    "uuid": "^3.2.1"
+  }
+}

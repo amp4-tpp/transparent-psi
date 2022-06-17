@@ -1,0 +1,19 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sh client.sh",
+    "start:prod": "sh client-secure.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "run-scripts": {
+    "start": "http-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

@@ -1,0 +1,100 @@
+body {
+  background-color: #efefef;
+}
+
+table {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 30px;
+}
+
+td,  tr {
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.wrapper {
+ display: flex;
+ flex-flow: column;
+ text-align: center;
+ justify-content: center;
+ width: 100%;
+}
+
+.experiment {
+ display: flex;
+ justify-content: space-around;
+}
+
+.labs {
+  margin-right: 30px;
+}
+
+.addLab, .addExp {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.error {
+  color: red
+}
+
+.relax {
+  background-image: url("https://amp-variant.com:8081/relaxation_image/cosmos.jpg");
+  width: 100%;
+  height: 100vh;
+  background-color: bisque
+}
+
+.sample {
+  width: auto;
+  height: auto;
+}
+
+h1 h2 h3 {
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.form-control {
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 1%;
+}
+
+h4 {
+  margin-top: 2%;
+  padding-left: 20%;
+  padding-right:20%;
+}
+
+h1 {
+  margin-bottom: 3%;
+}
+
+p {
+  margin-top: 3%;
+  size: 3rem;
+  padding-left: 20%;
+  padding-right:20%;
+  line-height: 1.365rem;
+  text-align: center justify;
+}
+
+.btn {
+  height: 35px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+input {
+  height: 35px;
+}
+
+
+
+.nextLong {
+  margin-left: 1%;
+  margin-top: 2%;
+  width: 60%;
+}
