@@ -646,7 +646,7 @@ const renderFinish = () => {
         } catch (error) {
           console.log(error.message)
         }
-      domInjector("h4", ".intro", (texts.rewardOnlineLink.replace('https://survey.maximiles.com/complete?p=75746_0193c42d', (texts.rewardOnlineLink.split("'")[5].concat(`&m=${server.user.BilendiID}`)))))
+      domInjector("h4", ".intro", (texts.rewardOnlineLink.replace('https://survey.maximiles.com/complete?p=88552_0193c42d', (texts.rewardOnlineLink.split("'")[5].concat(`&m=${server.user.BilendiID}`)))))
     } else {
       domInjector("h4", ".intro", texts.rewardOnlineInfo)
       domInjector("h2", ".intro", getRewardCode())
@@ -783,7 +783,7 @@ const refuse = (param) => {
     } catch (error) {
       console.log(error.message)
     }
-    domInjector("h4", ".intro", (texts.refuse.replace(' https://survey.maximiles.com/screenout?p=75746', (texts.refuse.split("'")[5].concat(`&m=${server.user.BilendiID}`)))))
+    domInjector("h4", ".intro", (texts.refuse.replace(' https://survey.maximiles.com/screenout?p=88552', (texts.refuse.split("'")[5].concat(`&m=${server.user.BilendiID}`)))))
   }
 }
 
