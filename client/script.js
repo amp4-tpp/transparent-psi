@@ -646,7 +646,16 @@ const renderFinish = () => {
         } catch (error) {
           console.log(error.message)
         }
-      domInjector("h4", ".intro", (texts.rewardOnlineLink.replace('https://survey.maximiles.com/complete?p=88552_0193c42d', (texts.rewardOnlineLink.split("'")[5].concat(`&m=${server.user.BilendiID}`)))))
+      domInjector(
+        "h4",
+        ".intro",
+        texts.rewardOnlineLink.replace(
+          "https://survey.maximiles.com/complete?p=88552_40b08588",
+          texts.rewardOnlineLink
+            .split("'")[5]
+            .concat(`&m=${server.user.BilendiID}`)
+        )
+      );
     } else {
       domInjector("h4", ".intro", texts.rewardOnlineInfo)
       domInjector("h2", ".intro", getRewardCode())
