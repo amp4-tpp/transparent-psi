@@ -792,7 +792,14 @@ const refuse = (param) => {
     } catch (error) {
       console.log(error.message)
     }
-    domInjector("h4", ".intro", (texts.refuse.replace(' https://survey.maximiles.com/screenout?p=88552', (texts.refuse.split("'")[5].concat(`&m=${server.user.BilendiID}`)))))
+    domInjector(
+      "h4",
+      ".intro",
+      texts.refuse.replace(
+        " https://survey.maximiles.com/screenout?p=88552_bfc3ba2a",
+        texts.refuse.split("'")[5].concat(`&m=${server.user.BilendiID}`)
+      )
+    );
   }
 }
 
